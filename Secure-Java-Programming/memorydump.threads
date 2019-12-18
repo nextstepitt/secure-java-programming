@@ -1,0 +1,303 @@
+Thread 0x70ff01b18
+  at com.sun.management.internal.HotSpotDiagnostic.dumpHeap0(Ljava/lang/String;Z)V (Native Method)
+  at com.sun.management.internal.HotSpotDiagnostic.dumpHeap(Ljava/lang/String;Z)V (HotSpotDiagnostic.java:61)
+  at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object; (Native Method)
+  at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object; (NativeMethodAccessorImpl.java:62)
+  at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object; (DelegatingMethodAccessorImpl.java:43)
+  at java.lang.reflect.Method.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object; (Method.java:567)
+  at sun.reflect.misc.Trampoline.invoke(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object; (MethodUtil.java:71)
+  at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object; (Native Method)
+  at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object; (NativeMethodAccessorImpl.java:62)
+  at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object; (DelegatingMethodAccessorImpl.java:43)
+  at java.lang.reflect.Method.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object; (Method.java:567)
+  at sun.reflect.misc.MethodUtil.invoke(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object; (MethodUtil.java:260)
+  at com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object; (ConvertingMethod.java:193)
+  at com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(Lcom/sun/jmx/mbeanserver/MXBeanLookup;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object; (ConvertingMethod.java:175)
+  at com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(Lcom/sun/jmx/mbeanserver/ConvertingMethod;Ljava/lang/Object;[Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; (MXBeanIntrospector.java:117)
+  at com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(Ljava/lang/Object;Ljava/lang/Object;[Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; (MXBeanIntrospector.java:54)
+  at com.sun.jmx.mbeanserver.MBeanIntrospector.invokeM(Ljava/lang/Object;Ljava/lang/Object;[Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; (MBeanIntrospector.java:237)
+  at com.sun.jmx.mbeanserver.PerInterface.invoke(Ljava/lang/Object;Ljava/lang/String;[Ljava/lang/Object;[Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/Object; (PerInterface.java:138)
+  at com.sun.jmx.mbeanserver.MBeanSupport.invoke(Ljava/lang/String;[Ljava/lang/Object;[Ljava/lang/String;)Ljava/lang/Object; (MBeanSupport.java:252)
+  at javax.management.StandardMBean.invoke(Ljava/lang/String;[Ljava/lang/Object;[Ljava/lang/String;)Ljava/lang/Object; (StandardMBean.java:405)
+  at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(Ljavax/management/ObjectName;Ljava/lang/String;[Ljava/lang/Object;[Ljava/lang/String;)Ljava/lang/Object; (DefaultMBeanServerInterceptor.java:809)
+  at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(Ljavax/management/ObjectName;Ljava/lang/String;[Ljava/lang/Object;[Ljava/lang/String;)Ljava/lang/Object; (JmxMBeanServer.java:801)
+  at com.sun.jmx.mbeanserver.MXBeanProxy$InvokeHandler.invoke(Ljavax/management/MBeanServerConnection;Ljavax/management/ObjectName;[Ljava/lang/Object;)Ljava/lang/Object; (MXBeanProxy.java:150)
+  at com.sun.jmx.mbeanserver.MXBeanProxy.invoke(Ljavax/management/MBeanServerConnection;Ljavax/management/ObjectName;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/Object; (MXBeanProxy.java:167)
+  at javax.management.MBeanServerInvocationHandler.invoke(Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/Object; (MBeanServerInvocationHandler.java:258)
+  at com.sun.proxy.$Proxy7.dumpHeap(Ljava/lang/String;Z)V (Unknown Source)
+  at immutable_heap.PasswordCheckerTestsBase.dumpMemory()V (PasswordCheckerTestsBase.java:43)
+  at immutable_heap.PasswordCheckerETests.PasswordCheckerComplaintSucceeds()V (PasswordCheckerETests.java:36)
+  at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object; (Native Method)
+  at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object; (NativeMethodAccessorImpl.java:62)
+  at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object; (DelegatingMethodAccessorImpl.java:43)
+  at java.lang.reflect.Method.invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object; (Method.java:567)
+  at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall()Ljava/lang/Object; (FrameworkMethod.java:50)
+  at org.junit.internal.runners.model.ReflectiveCallable.run()Ljava/lang/Object; (ReflectiveCallable.java:12)
+  at org.junit.runners.model.FrameworkMethod.invokeExplosively(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object; (FrameworkMethod.java:47)
+  at org.junit.internal.runners.statements.InvokeMethod.evaluate()V (InvokeMethod.java:17)
+  at org.junit.runners.ParentRunner.runLeaf(Lorg/junit/runners/model/Statement;Lorg/junit/runner/Description;Lorg/junit/runner/notification/RunNotifier;)V (ParentRunner.java:325)
+  at org.junit.runners.BlockJUnit4ClassRunner.runChild(Lorg/junit/runners/model/FrameworkMethod;Lorg/junit/runner/notification/RunNotifier;)V (BlockJUnit4ClassRunner.java:78)
+  at org.junit.runners.BlockJUnit4ClassRunner.runChild(Ljava/lang/Object;Lorg/junit/runner/notification/RunNotifier;)V (BlockJUnit4ClassRunner.java:57)
+  at org.junit.runners.ParentRunner$3.run()V (ParentRunner.java:290)
+  at org.junit.runners.ParentRunner$1.schedule(Ljava/lang/Runnable;)V (ParentRunner.java:71)
+  at org.junit.runners.ParentRunner.runChildren(Lorg/junit/runner/notification/RunNotifier;)V (ParentRunner.java:288)
+  at org.junit.runners.ParentRunner.access$000(Lorg/junit/runners/ParentRunner;Lorg/junit/runner/notification/RunNotifier;)V (ParentRunner.java:58)
+  at org.junit.runners.ParentRunner$2.evaluate()V (ParentRunner.java:268)
+  at org.junit.runners.ParentRunner.run(Lorg/junit/runner/notification/RunNotifier;)V (ParentRunner.java:363)
+  at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(Lorg/eclipse/jdt/internal/junit/runner/TestExecution;)V (JUnit4TestReference.java:89)
+  at org.eclipse.jdt.internal.junit.runner.TestExecution.run([Lorg/eclipse/jdt/internal/junit/runner/ITestReference;)V (TestExecution.java:41)
+  at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests([Ljava/lang/String;Ljava/lang/String;Lorg/eclipse/jdt/internal/junit/runner/TestExecution;)V (RemoteTestRunner.java:541)
+  at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(Lorg/eclipse/jdt/internal/junit/runner/TestExecution;)V (RemoteTestRunner.java:763)
+  at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run()V (RemoteTestRunner.java:463)
+  at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main([Ljava/lang/String;)V (RemoteTestRunner.java:209)
+
+  locals:
+    objectId=0x70fe5a9c0, line=0
+    objectId=0x70f85dd38, line=1
+    objectId=0x70fe5a9a8, line=1
+    objectId=0x70f8a6710, line=1
+    objectId=0x70f8a9260, line=1
+    objectId=0x70f8a66e8, line=3
+    objectId=0x70f85dd38, line=3
+    objectId=0x70f89b618, line=3
+    objectId=0x70f8a6700, line=4
+    objectId=0x70f85dd38, line=4
+    objectId=0x70f89b618, line=4
+    objectId=0x70f85ebc8, line=5
+    objectId=0x70f85dd38, line=5
+    objectId=0x70f89b618, line=5
+    objectId=0x70f8a6700, line=5
+    objectId=0x70f85ebc8, line=6
+    objectId=0x70f85dd38, line=6
+    objectId=0x70f89b618, line=6
+    objectId=0x70f8a2770, line=8
+    objectId=0x70f8a2750, line=8
+    objectId=0x70f8a2788, line=9
+    objectId=0x70f8a2750, line=9
+    objectId=0x70f8a26f8, line=10
+    objectId=0x70f8a2750, line=10
+    objectId=0x70f8a2788, line=10
+    objectId=0x70f85ebc8, line=11
+    objectId=0x70f85dd38, line=11
+    objectId=0x70f89b618, line=11
+    objectId=0x70f85ee78, line=12
+    objectId=0x70f85dd38, line=12
+    objectId=0x70f89b618, line=12
+    objectId=0x70f89b618, line=12
+    objectId=0x70f85ee78, line=13
+    objectId=0x70f91b968, line=13
+    objectId=0x70f85dd38, line=13
+    objectId=0x70f89b618, line=13
+    objectId=0x70f91b968, line=13
+    objectId=0x70fac4850, line=14
+    objectId=0x70f85ee78, line=14
+    objectId=0x70f85dd38, line=14
+    objectId=0x70f89b618, line=14
+    objectId=0x70f91b968, line=14
+    objectId=0x70fac4850, line=15
+    objectId=0x70f85ee78, line=15
+    objectId=0x70f85dd38, line=15
+    objectId=0x70f89b618, line=15
+    objectId=0x70f91b968, line=15
+    objectId=0x70fac4850, line=16
+    objectId=0x70f85ee78, line=16
+    objectId=0x70f85dd38, line=16
+    objectId=0x70f89b618, line=16
+    objectId=0x70f91b968, line=16
+    objectId=0x70f864960, line=17
+    objectId=0x70f85dd38, line=17
+    objectId=0x70f85e5e0, line=17
+    objectId=0x70f89b618, line=17
+    objectId=0x70f89ce90, line=17
+    objectId=0x70f91b968, line=17
+    objectId=0x70f864b48, line=17
+    objectId=0x70f864b30, line=17
+    objectId=0x70f89d188, line=17
+    objectId=0x70f85e490, line=18
+    objectId=0x70f85e5e0, line=18
+    objectId=0x70f89b618, line=18
+    objectId=0x70f89ce90, line=18
+    objectId=0x70f85e0e8, line=19
+    objectId=0x70f85e5e0, line=19
+    objectId=0x70f89b618, line=19
+    objectId=0x70f89ce90, line=19
+    objectId=0x70fa80250, line=20
+    objectId=0x70f88cd48, line=20
+    objectId=0x70f85e5e0, line=20
+    objectId=0x70f89b618, line=20
+    objectId=0x70f89ce90, line=20
+    objectId=0x70f85e0e8, line=20
+    objectId=0x70fa7aca0, line=21
+    objectId=0x70f88cd48, line=21
+    objectId=0x70f85e5e0, line=21
+    objectId=0x70f89b618, line=21
+    objectId=0x70f89ce90, line=21
+    objectId=0x70f89cf28, line=22
+    objectId=0x70fa7aca0, line=22
+    objectId=0x70f88cd48, line=22
+    objectId=0x70f89b618, line=22
+    objectId=0x70f89b6c8, line=23
+    objectId=0x70fa7aca0, line=23
+    objectId=0x70f88cd48, line=23
+    objectId=0x70f89b0c8, line=23
+    objectId=0x70f89b618, line=23
+    objectId=0x70f89cf28, line=23
+    objectId=0x70f89ba68, line=23
+    objectId=0x70f91b968, line=23
+    objectId=0x70f89b618, line=23
+    objectId=0x70f88e128, line=24
+    objectId=0x70f89b348, line=24
+    objectId=0x70f89b0c8, line=24
+    objectId=0x70f89b618, line=24
+    objectId=0x70f85dba0, line=24
+    objectId=0x70f89b6c8, line=24
+    objectId=0x70f89b348, line=25
+    objectId=0x70fe5a9a8, line=25
+    objectId=0x70fa66220, line=26
+    objectId=0x70fa7aca0, line=26
+    objectId=0x70f89b348, line=26
+    objectId=0x70fa66220, line=27
+    objectId=0x70fa6e318, line=27
+    objectId=0x70fa70120, line=27
+    objectId=0x70fa72fa0, line=27
+    objectId=0x70fa6e2f0, line=29
+    objectId=0x70fa66220, line=29
+    objectId=0x70fa6b570, line=29
+    objectId=0x70fa6e308, line=30
+    objectId=0x70fa66220, line=30
+    objectId=0x70fa6b570, line=30
+    objectId=0x70fb31628, line=31
+    objectId=0x70fa66220, line=31
+    objectId=0x70fa6b570, line=31
+    objectId=0x70fa6e308, line=31
+    objectId=0x70fa6e2b8, line=32
+    objectId=0x70fa6e2b8, line=33
+    objectId=0x70fb316e8, line=34
+    objectId=0x70fa66220, line=34
+    objectId=0x70fa6b570, line=34
+    objectId=0x70fa66278, line=35
+    objectId=0x70fb051e0, line=36
+    objectId=0x70fa66278, line=36
+    objectId=0x70fa083f8, line=36
+    objectId=0x70fa2cfe0, line=36
+    objectId=0x70fa685a8, line=36
+    objectId=0x70fb051e0, line=37
+    objectId=0x70fb316e8, line=37
+    objectId=0x70fa2cfe0, line=37
+    objectId=0x70fa083f8, line=37
+    objectId=0x70fb051e0, line=38
+    objectId=0x70fb316e8, line=38
+    objectId=0x70fa2cfe0, line=38
+    objectId=0x70fa61268, line=39
+    objectId=0x70fb07830, line=40
+    objectId=0x70fa61268, line=40
+    objectId=0x70fb051e0, line=41
+    objectId=0x70fa2cfe0, line=41
+    objectId=0x70fb07830, line=41
+    objectId=0x70fa5e6c0, line=41
+    objectId=0x70fb316e8, line=41
+    objectId=0x70fb051e0, line=42
+    objectId=0x70fa2cfe0, line=42
+    objectId=0x70fa5c580, line=43
+    objectId=0x70fb051e0, line=44
+    objectId=0x70fa2cfe0, line=44
+    objectId=0x70fa5c498, line=44
+    objectId=0x70fa5c580, line=44
+    objectId=0x70fa20310, line=45
+    objectId=0x70fe53428, line=45
+    objectId=0x70fa2cfe0, line=45
+    objectId=0x70fa49380, line=45
+    objectId=0x70fa49598, line=45
+    objectId=0x70fe53428, line=46
+    objectId=0x70fe5ac30, line=46
+    objectId=0x70fe08738, line=47
+    objectId=0x70fe21c00, line=47
+    objectId=0x70fe53428, line=47
+    objectId=0x70fe5ac30, line=47
+    objectId=0x70fe08738, line=48
+    objectId=0x70fe53428, line=48
+    objectId=0x70fe08738, line=49
+    objectId=0x70fe53410, line=49
+    objectId=0x70fe08320, line=50
+    objectId=0x70fe08738, line=50
+
+Thread 0x70ff02560
+  at java.lang.ref.Reference.waitForReferencePendingList()V (Native Method)
+  at java.lang.ref.Reference.processPendingReferences()V (Reference.java:241)
+  at java.lang.ref.Reference$ReferenceHandler.run()V (Reference.java:213)
+
+  locals:
+    objectId=0x70ff02560, line=2
+
+Thread 0x70ff027c0
+  at java.lang.Object.wait(J)V (Native Method)
+  at java.lang.ref.ReferenceQueue.remove(J)Ljava/lang/ref/Reference; (ReferenceQueue.java:155)
+  at java.lang.ref.ReferenceQueue.remove()Ljava/lang/ref/Reference; (ReferenceQueue.java:176)
+  at java.lang.ref.Finalizer$FinalizerThread.run()V (Finalizer.java:170)
+
+  locals:
+    objectId=0x70ff02770, line=1
+    objectId=0x70ff02790, line=1
+    objectId=0x70ff02770, line=2
+    objectId=0x70ff027c0, line=3
+    objectId=0x70ff13de8, line=3
+
+Thread 0x70ff13f10
+
+  locals:
+
+Thread 0x70ff4c510
+  at java.lang.Object.wait(J)V (Native Method)
+  at java.lang.ref.ReferenceQueue.remove(J)Ljava/lang/ref/Reference; (ReferenceQueue.java:155)
+  at jdk.internal.ref.CleanerImpl.run()V (CleanerImpl.java:148)
+  at java.lang.Thread.run()V (Thread.java:835)
+  at jdk.internal.misc.InnocuousThread.run()V (InnocuousThread.java:134)
+
+  locals:
+    objectId=0x70ff4c240, line=1
+    objectId=0x70ff4c260, line=1
+    objectId=0x70ff4c220, line=2
+    objectId=0x70ff4c510, line=2
+    objectId=0x70ff4c510, line=2
+    objectId=0x70ff4c510, line=3
+    objectId=0x70ff4c510, line=4
+
+Thread 0x70fe530a8
+  at java.net.SocketInputStream.socketRead0(Ljava/io/FileDescriptor;[BIII)I (Native Method)
+  at java.net.SocketInputStream.socketRead(Ljava/io/FileDescriptor;[BIII)I (SocketInputStream.java:115)
+  at java.net.SocketInputStream.read([BIII)I (SocketInputStream.java:168)
+  at java.net.SocketInputStream.read([BII)I (SocketInputStream.java:140)
+  at sun.nio.cs.StreamDecoder.readBytes()I (StreamDecoder.java:284)
+  at sun.nio.cs.StreamDecoder.implRead([CII)I (StreamDecoder.java:326)
+  at sun.nio.cs.StreamDecoder.read([CII)I (StreamDecoder.java:178)
+  at java.io.InputStreamReader.read([CII)I (InputStreamReader.java:185)
+  at java.io.BufferedReader.fill()V (BufferedReader.java:161)
+  at java.io.BufferedReader.readLine(Z)Ljava/lang/String; (BufferedReader.java:326)
+  at java.io.BufferedReader.readLine()Ljava/lang/String; (BufferedReader.java:392)
+  at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner$ReaderThread.run()V (RemoteTestRunner.java:151)
+
+  locals:
+    objectId=0x70fe491e0, line=1
+    objectId=0x70fe3a6a0, line=1
+    objectId=0x70fe49560, line=1
+    objectId=0x70fe491e0, line=2
+    objectId=0x70fe49560, line=2
+    objectId=0x70fe3a6a0, line=2
+    objectId=0x70fe491e0, line=3
+    objectId=0x70fe49560, line=3
+    objectId=0x70fe49320, line=4
+    objectId=0x70fe49320, line=5
+    objectId=0x70fe4b570, line=5
+    objectId=0x70fe7b6c8, line=5
+    objectId=0x70ff4d778, line=5
+    objectId=0x70fe49320, line=6
+    objectId=0x70fe4b570, line=6
+    objectId=0x70fe49008, line=6
+    objectId=0x70fe49008, line=7
+    objectId=0x70fe4b570, line=7
+    objectId=0x70fe48fb8, line=8
+    objectId=0x70fe48fb8, line=9
+    objectId=0x70fe49008, line=9
+    objectId=0x70fe48fb8, line=10
+    objectId=0x70fe530a8, line=11
+
