@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- identity-map
+     Copyright © 2019-2020 NextStep IT Training. All rights reserved.
+
+     In the real world we would never put the actual passwords in the data file... this is just for you!
+-->
+<identities>
+    <identity>
+        <name>ghopper</name>
+        <password>5ca33d221fd09f16c1ecba9c1aadc3eb</password> <!-- P@ssW0rd -->
+    </identity>
+    <identity>
+        <name>alovelace</name>
+        <password>bf93efe3d25c3af6fd6e2b5954a54a04</password> <!-- T00F@st4U -->
+    </identity>
+    <identity>
+        <name>gbool</name>
+        <password>c1ed65bb1b203fa5c6c3bc4b20beb76</password> <!-- Go@headBreak1t -->
+    </identity>
+</identities>

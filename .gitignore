@@ -1,4 +1,7 @@
 /.metadata/
 .project/
 .classpath/
-
+.idea/
+*.iml
+Secure-Java-Programming/
+sandbox/
